@@ -88,7 +88,7 @@ class _DetailScreenState extends State<DetailScreen> {
                       ValueListenableBuilder(
                           valueListenable: myBox.listenable(),
                           builder: (context,box,_){
-                            String key = widget.item['label'] ?? 'Unknown';
+                            String key = widget.item['label'];
                             bool saved = myBox.containsKey(key);
                             if(saved){
                               return GestureDetector(
@@ -107,7 +107,7 @@ class _DetailScreenState extends State<DetailScreen> {
                               );
                             }
                             else{
-                              GestureDetector(
+                              return GestureDetector(
                                 onTap: (){
                                   myBox.put(key, key);
                                   ScaffoldMessenger.of(context).showSnackBar(
