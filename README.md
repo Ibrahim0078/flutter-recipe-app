@@ -1,16 +1,24 @@
-# recipe_app
+# 🍽 Recipe App
+A simple Flutter app to search for recipes, view details, and save recipes and ingredients locally using Hive.
 
-A new Flutter project.
+## Features
+- Search Recipes: Look for recipes by keyword or ingredient.
+- View Details: Get recipe instructions, ingredients, and cooking time.
+- Save Recipes: Store favorite recipes and access them offline.
+- Manage Ingredients: Save and track ingredients with local storage.
+## Tech Stack
+- Flutter: Cross-platform development
+- Hive: Local NoSQL database
+- HTTP: Fetch recipe data from API
+- Getting Started
+- Clone the repo:
 
-## Getting Started
+## Packages Used
+- hive, hive_flutter: Local storage
+- http: API requests
+- provider: State management
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- Shopping List
+- Save Recipe Locally
+- Browse Recipes
