@@ -87,7 +87,7 @@ class _DetailScreenState extends State<DetailScreen> {
                       ),
                       ValueListenableBuilder(
                           valueListenable: myBox.listenable(),
-                          builder: (context,box,_){
+                          builder: (context,box,_) {
                             String key = widget.item['label'];
                             bool saved = myBox.containsKey(key);
                             if(saved){

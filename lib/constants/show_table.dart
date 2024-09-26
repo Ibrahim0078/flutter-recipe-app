@@ -130,7 +130,7 @@ class BuildTableCell extends StatelessWidget {
           Text(text1, style: TextStyle(fontSize: 10, color: Colors.white),),
           Text(text2, style: TextStyle(fontSize: 10, color: Colors.white),),
           if(text3!=null)
-          Text(text3!, style: TextStyle(fontSize: 8, color: Colors.white),),
+          Text(text3! , style: TextStyle(fontSize: 8, color: Colors.white),),
         ],
       ),
     ));
